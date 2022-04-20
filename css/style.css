@@ -1,0 +1,89 @@
+body {
+  text-align:center;
+  font-family: Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-top: 2.2rem;
+}
+
+/* botões */
+#buttons-container button {
+  border: none;
+  padding: 10px 15px;
+  margin: 0 10px;;
+}
+
+/* jogo */
+#container {
+  display: flex;
+  width: 300px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+  margin: 2rem auto;
+}
+
+.box {
+  height: 100px;
+  border: 5px solid #000;
+  box-sizing: border-box;
+  flex: 1 1 33%
+}
+
+#block-1, #block-2, #block-3 {
+  border-top: none;
+}
+
+#block-1, #block-4, #block-7 {
+  border-left: none;
+}
+
+#block-3, #block-6, #block-9 {
+  border-right: none;
+}
+
+#block-7, #block-8, #block-9 {
+  border-bottom: none;
+}
+
+/* símbolos */
+.x {
+  font-size: 4.5rem;
+  color: red;
+  display: inline-block;
+  line-height: 100px;
+}
+
+.o {
+  width: 3.125rem;
+  height: 3.125rem;
+  border: .3rem solid green;
+  border-radius: 50%;
+  display:inline-block;
+  margin-top: 2rem;
+}
+
+/* .hide {
+  display: none !important;
+} */
+
+/* placar */
+#scoreboard-container {
+  font-weight: bold;
+  font-size: 2rem;
+  position: relative;
+  margin: 2.5rem auto;
+}
+
+#x-scoreboard {
+  color: red;
+  margin-right: .5rem;
+}
+
+#o-scoreboard {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+}
