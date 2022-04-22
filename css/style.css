@@ -66,12 +66,12 @@ h2 {
   border: .3rem solid green;
   border-radius: 50%;
   display:inline-block;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
-/* .hide {
+.hide {
   display: none !important;
-} */
+}
 
 /* placar */
 #scoreboard-container {
@@ -111,5 +111,4 @@ h2 {
   background-color: #000;
   color: #fff;
   padding: 20px;
-  display: none;
 }
